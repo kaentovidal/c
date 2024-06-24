@@ -73,7 +73,7 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen p-4 bg-gray-100">
       <div className="space-y-4 w-full max-w-2xl">
-        <h1 className="text-2xl font-bold text-gray-800 text-center">User Management App</h1>
+        <h1 className="text-2xl font-bold text-gray-800 text-center">App</h1>
 
         {/* Create user */}
         <form onSubmit={createUser} className="p-4 bg-blue-100 rounded shadow">
@@ -90,7 +90,7 @@ export default function Home() {
             className="mb-2 w-full p-2 border border-gray-300 rounded"
           />
           <button type="submit" className="w-full p-2 text-white bg-blue-500 rounded hover:bg-blue-600">
-            Add User
+            Añadir usuario
           </button>
         </form>
 
@@ -115,7 +115,7 @@ export default function Home() {
             className="mb-2 w-full p-2 border border-gray-300 rounded"
           />
           <button type="submit" className="w-full p-2 text-white bg-green-500 rounded hover:bg-green-600">
-            Update User
+            Actualizar
           </button>
         </form>
 
