@@ -12,8 +12,17 @@ services:
     environment:
       - NEXT_PUBLIC_API_URL=http://localhost:4000
     restart: always
-    depends_on:
-      - backend
+    #depends_on:
+    #  - backend
+    develop:
+      watch:
+        - action: sync
+          path: ./src 
+          target: /app/src 
+          ignore: 
+            - node_modules/
+        - action: rebuild
+          path: package.json 
   backend:
     container_name: backend
     image: backend

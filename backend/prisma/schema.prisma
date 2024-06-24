@@ -16,3 +16,10 @@ model User {
   name  String
   email String 
 }
+
+//User with id as int autoincrement, name as string and email as string
+model products {
+  id    Int     @id @default(autoincrement())
+  name  String
+  description String 
+}
