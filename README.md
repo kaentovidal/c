@@ -45,8 +45,16 @@ npm init
 ```
 Instalamos las dependencias requeridas
 ```sh
-npm i express prisma @prisma/client
+npm i 
 ```
- 
+
+### compilamos el contenedor 
+
+`docker compose build frontend`
+
+* Para levantar los contenedor con la base de datos
+```sh
+docker compose up fronted --watch
+```
 
 
