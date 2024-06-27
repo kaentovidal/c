@@ -1,4 +1,4 @@
-https://www.notion.so/Dise-ar-el-Modelo-Entidad-Relacion-173ff44f226f48f0b65e631151bfccd1?pvs=4#0e777026ab8446b99080085ba07ba000
+https://vscode.dev/editor/liveshare/98418229C024CF8D87C805B772268C90278D
 
 
 # Plantilla FullStack
