@@ -1,3 +1,6 @@
+https://www.notion.so/Dise-ar-el-Modelo-Entidad-Relacion-173ff44f226f48f0b65e631151bfccd1?pvs=4#0e777026ab8446b99080085ba07ba000
+
+
 # Plantilla FullStack
 
 En este proeto esta implementado Docker y se puede trabajar independientemente sobre el backend y el fronted
